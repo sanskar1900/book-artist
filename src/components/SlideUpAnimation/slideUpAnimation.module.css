@@ -1,0 +1,194 @@
+/* Keyframes for slide-up animation */
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+/* Slide-up animation applied to each visible text */
+.slideUpAnimation {
+  animation: slideUp 4s ease-in-out forwards;
+  font-size: 1.7rem;
+  @media only screen and (max-width: 768px) {
+    width: 100vw;
+    text-align: center;
+    margin-left: -11%;
+  }
+}
+
+/* Styles for the heading container */
+.introHeading {
+  position: relative;
+  overflow: hidden;
+  font-family: "Crimson Pro", serif;
+  color: white;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  @media only screen and (min-width: 1800px) {
+    font-size: 2.9rem;
+  }
+
+  @media only screen and (min-width: 1500px) and (max-width: 1600px) {
+    font-size: 3rem;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1500px) {
+    font-size: 3rem;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    font-size: 1.8rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+}
+
+/* Font size adjustments for responsiveness */
+/* @media only screen and (min-width: 1800px) {
+  .introHeading {
+    font-size: 2.9rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
+  .introHeading {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+  .introHeading {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .introHeading {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .introHeading {
+    font-size: 1.5rem;
+  }
+} */
+
+/* Styles for the first part of the heading */
+.introHeadingFirstPart {
+  @media only screen and (max-width: 768px) and (min-width: 390px) {
+    margin: 10px auto;
+    width: 100%;
+    margin-left: -10%;
+    font-size: 1.25rem;
+    /* margin-top: 100px; */
+  }
+  @media only screen and (max-width: 390px) {
+    margin: 10px auto;
+    /* margin-top: 100px; */
+
+    width: 100%;
+    margin-left: -9.5%;
+    font-size: 1.15rem;
+  }
+}
+
+/* Styles for the second part of the heading */
+.introHeadingSecondPart {
+  font-weight: bolder;
+  white-space: nowrap;
+  font-family: "Crimson Pro", serif;
+  color: 0d1b2a;
+  margin-bottom: 0px;
+  flex-wrap: wrap;
+  font-family: "Crimson Pro", serif;
+
+  @media only screen and (min-width: 1800px) {
+    font-size: 2.9rem;
+  }
+
+  @media only screen and (min-width: 1500px) and (max-width: 1600px) {
+    font-size: 3rem;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1500px) {
+    font-size: 3rem;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    font-size: 1.8rem;
+  }
+
+  @media only screen and (max-width: 768px) and (min-width: 390px) {
+    font-size: 1.3rem;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 1.6rem;
+  }
+}
+
+/* Font size adjustments for responsiveness */
+/* @media only screen and (min-width: 1800px) {
+  .introHeadingSecondPart {
+    font-size: 2.9rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
+  .introHeadingSecondPart {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+  .introHeadingSecondPart {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .introHeadingSecondPart {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .introHeadingSecondPart {
+    font-size: 1.5rem;
+  }
+} */
+
+/* Container for the heading */
+.headContainer {
+  display: flex;
+  margin-bottom: 4%;
+  margin-left: 20%;
+  text-align: center;
+  width: 100%;
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 8%;
+  }
+  @media only screen and (max-width: 500px) and (min-width: 375px) {
+    margin-top: 65%;
+  }
+  @media only screen and (max-width: 375px) {
+    margin-top: 65%;
+  }
+}

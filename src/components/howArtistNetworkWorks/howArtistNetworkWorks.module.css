@@ -1,0 +1,44 @@
+.howElevnWorks {
+  background-color: #d4d7ff;
+  /* background-color: pink; */
+  padding: 10% 5% 10% 10%;
+  position: relative;
+}
+.howElevnWorksHeadingMobile {
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
+}
+.howElevnWorksSlider {
+  width: 75%;
+  margin-left: auto;
+
+  @media only screen and (max-width: 768px) {
+    width: 95%;
+    margin: 1rem auto;
+  }
+}
+.howElevnWorksHeading {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 25%;
+  height: auto;
+  z-index: 2;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.howElevnWorksHeadingMobile {
+  width: 100%;
+}
+.HowElevnWorksCupidHeartMobile {
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+  }
+}

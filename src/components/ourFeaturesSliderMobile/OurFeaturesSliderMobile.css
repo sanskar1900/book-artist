@@ -1,0 +1,96 @@
+.carousel-container-mobile {
+  /* background-image: linear-gradient(to bottom, #d5d7ff, #ffffff); */
+  /* border-radius: 2rem; */
+  background-color: #d4d7ff;
+  height: 100%;
+}
+
+/* .carousel-container-mobile .react-multi-carousel-dot-list,
+.react-multi-carousel-dot-list ul {
+  background-color: #d4d7ff !important;
+}
+
+.carousel-container-mobile .react-multi-carousel-dot button {
+  background-color: #351b4f !important;
+  opacity: 0.1;
+  width: 5rem;
+  height: 0.3rem;
+  border-radius: 0.5rem !important;
+  border: none;
+  transition: 0.2s ease;
+}
+
+.carousel-container-mobile .react-multi-carousel-dot--active button {
+  background-color: #351b4f;
+  opacity: 1;
+
+  width: 5rem;
+  height: 0.3rem;
+  border-radius: 0;
+  border: none;
+}
+
+.carousel-container-mobile .react-multi-carousel-dot-list,
+.react-multi-carousel-dot-list ul {
+  padding: 1rem;
+} */
+
+.our-features-slider-mobile .slick-dots {
+  /* width: 100% !important; */
+  /* background-color: transparent !important; */
+  /* height: 20px !important; */
+}
+.our-features-slider-mobile .slick-dots li {
+  /* display: block; */
+  /* width: 4rem !important; */
+  /* height: 3px !important; */
+  /* border-radius: 0.5rem;
+    cursor: pointer !important;
+    
+    outline: 0 !important;
+    opacity: 0.1;
+    background: #351B4F !important; */
+}
+/*  
+ 
+ .our-features-slider-mobile .slick-active{
+  list-style: none !important;
+    opacity: 1 !important;
+} */
+
+/* @media only screen and (max-width: 768px) {
+  .how-elevn-works-slider .react-multi-carousel-dot button {
+    background-color: #351b4f !important;
+    width: 4rem;
+    height: 0.2rem;
+    border-radius: 0;
+    border: none;
+  }
+   .our-features-slider-mobile .slick-dots {
+    
+    width: 4rem !important;
+    height: 3px !important;
+    background-color: #351B4F !important;
+}
+} */
+
+/* @media only screen and (max-width: 768px) {
+  .ourFeaturesCarousel .slick-dots {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    border-radius: 0.5rem;
+    cursor: pointer !important;
+    outline: 0 !important;
+    opacity: 1 !important;
+    background: transparent !important;
+    text-align: "center" !important;
+  }
+  .ourFeaturesCarousel .slick-dots li {
+    width: 4rem !important;
+    height: 3px !important;
+  }
+  .our-features-slider-mobile .slick-active {
+    list-style: none !important;
+  }
+} */

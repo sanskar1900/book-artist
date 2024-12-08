@@ -1,0 +1,50 @@
+.sliderWrapper {
+  position: relative;
+  /* margin: 0 auto; */
+  /* margin-left: auto; */
+  padding-bottom: 20px;
+}
+
+.slide {
+  /* text-align: end; */
+  /* padding: 40px;
+  background: #f2f2f2;
+  border-radius: 10px; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navButton {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: transparent;
+  border: 1px solid #351b4f;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  @media only screen and (max-width: 768px) {
+    width: 12px;
+    height: 12px;
+    margin-top: 7%;
+  }
+}
+
+.navButton.active {
+  background-color: #351b4f;
+  border: none;
+}
+
+.navButton:hover {
+  background-color: #351b4f;
+}
+
+.ourFeatureSliderImage {
+  width: 100%;
+  height: auto;
+}

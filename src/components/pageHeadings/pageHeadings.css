@@ -1,0 +1,7 @@
+@media only screen and (max-width: 768px) {
+  .page-heading-text {
+    font-size: 1.5rem !important;
+    margin: 0rem 1rem !important;
+    padding: 0rem 1rem !important;
+  }
+}

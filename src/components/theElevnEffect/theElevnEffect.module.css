@@ -1,0 +1,160 @@
+.theElevnEffect {
+  background-color: #351b4f;
+  position: relative;
+  /* display: flex;
+  justify-content: center;
+  margin: 40px auto; */
+  /* margin: 50px auto; */
+  padding: 5% 0%;
+  @media only screen and (min-width: 1800px) {
+    margin: 4% auto;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 4% auto 0 auto;
+  }
+}
+.theElevnEffectLeftContainer {
+  width: 70%;
+  margin: auto 5%;
+  @media only screen and (max-width: 768px) {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.elevnEffectHeadingImage {
+  width: 450px;
+  margin-top: 15%;
+  @media only screen and (min-width: 1800px) {
+    width: 500px;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    width: 400px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    width: 300px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    width: 200px;
+    margin-top: 10%;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 80%;
+    margin: 0;
+  }
+}
+.theElevnEffectCoupleImageMobileContainer {
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
+}
+.theElevnEffectCoupleImageMobile {
+  width: 100%;
+  height: auto;
+  margin: 0% auto 7% auto;
+  @media only screen and (max-width: 576px) {
+    margin: -5% auto 7% auto;
+  }
+}
+.theElevnEffectCoupleImage {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 48%;
+  height: auto;
+  @media only screen and (min-width: 1900px) {
+    width: 44.5%;
+  }
+
+  @media only screen and (min-width: 1800px) and (max-width: 1900px) {
+    width: 46%;
+    right: 9%;
+  }
+  @media only screen and (min-width: 1500px) and (max-width: 1800px) {
+    /* width: 70%; */
+    top: 10%;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    width: 45%;
+    right: 12%;
+    top: 16%;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    top: 16%;
+    width: 42%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    top: 5%;
+    width: 43%;
+    right: 13%;
+  }
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.elevnEffectSubHeading {
+  color: white;
+  font-size: 28px;
+
+  font-family: "Crimson Pro", serif;
+  margin-top: -10px;
+  @media only screen and (min-width: 1900px) {
+    margin-top: -15px;
+    font-size: 35px;
+  }
+  @media only screen and (min-width: 1800px) and (max-width: 1900px) {
+    font-size: 35px;
+    margin-top: -15px;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    margin-top: -15px;
+
+    font-size: 24px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    font-size: 20px;
+    margin-top: -15px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    font-size: 15px;
+    margin-top: -15px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+}
+.elevnEffectPara {
+  color: white;
+  font-size: 16px;
+  margin-top: 4%;
+  font-family: "Crimson Pro", serif;
+  width: 75%;
+  @media only screen and (min-width: 1900px) {
+    font-size: 16px;
+  }
+  @media only screen and (min-width: 1800px) and (max-width: 1900px) {
+    /* font-size: 20px; */
+    margin-top: 4%;
+  }
+  @media only screen and (min-width: 1500px) and (max-width: 1800px) {
+    width: 72%;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    width: 70%;
+    font-size: 13px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    font-size: 11px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    font-size: 11px;
+    /* width: 80%; */
+  }
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 15%;
+    font-size: 0.9rem;
+  }
+}

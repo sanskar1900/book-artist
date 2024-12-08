@@ -1,0 +1,101 @@
+.outerMostContainer {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/tech-jupyter.appspot.com/o/blackhole.gif?alt=media&token=d060e464-b155-46e7-a55c-7270240de2fd");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  gap: 10%;
+  padding: 10%;
+  justify-content: center;
+}
+
+.leftCard {
+  display: flex;
+  max-width: 350px;
+
+  color: white;
+  flex-direction: column;
+  background-color: black;
+  padding: 30px;
+  border: 2px solid #fcba03;
+  border-radius: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leftCard:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.rightCard {
+  min-width: 350px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  background-color: black;
+  padding: 30px;
+  border: 2px solid #abf5b2;
+  border-radius: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rightCard:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(171, 245, 178, 0.2);
+}
+
+.signUpBtnArtist {
+  background: linear-gradient(to left, #ffac1c, #ffd580 75%);
+  padding: 20px;
+  border-radius: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Crimson Pro", serif;
+  border: none;
+}
+
+.signUpBtnUser {
+  background: linear-gradient(to left, #ffd580, #abf5b2 75%);
+  padding: 20px;
+  border-radius: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Crimson Pro", serif;
+  border: none;
+}
+
+.tickAndText {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.text {
+  font-family: "Crimson Pro", serif;
+  font-weight: bold;
+}
+
+.greyTxt {
+  color: #a9a9a9;
+}
+
+.forArtistHeading {
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #ff6b08, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.forUserHeading {
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #abf5b2, #ffd580);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

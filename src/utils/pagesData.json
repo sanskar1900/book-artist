@@ -1,0 +1,89 @@
+{
+  "mainPage": {
+    "heading": "A Platform  where you ",
+    "headingChangingText": [
+      "discover talent",
+      "create unforgettable moments",
+      "book the perfect vibe",
+      "find your next star"
+    ],
+    "subHeading1": "Elevn knows what you need.",
+    "subHeading2": "We bring in customised profiles validated by women so that dating gets safer than ever.",
+    "bottomLeftText": "Catch real feelings, not red flags.",
+    "bottomRightText": "Download our app now!"
+  },
+  "downloadOurApp": {
+    "downloadAppHeading": "Download our app now!"
+  },
+  "whyElevn": {
+    "whyElevnHeading": "Why Elevn?",
+    "whyElevnSubHeading": "Because it’s extraordinary.",
+    "whyElevnPara1": "A beautiful life comes with healthy relationships.",
+    "whyElevnPara2": "Elevn helps you find those. We aren’t just a social app but a gateway to connecting with romantic partners, friends, or professional networks. Your first step on Elevn might just be the start of something extraordinary."
+  },
+  "theElevnEffect": {
+    "subHeading1": "Elevn isn’t just an app,",
+    "subHeading2": "it’s a movement for change.",
+    "theElevnEffectPara": "We believe that honesty, kindness, equality, confidence, and respect are the bare minimum at every stage of a relationship, whether online or offline. Elevn is where people come to grow together and nurture healthier connections."
+  },
+  "footer": {
+    "footerTopRightHeading1": "Catch real feelings,",
+    "footerTopRightHeading2": "not red flags.",
+    "footerBottomSubheading": "Discover Now",
+    "footerBottomText1": "The Elevn Community is here for you!",
+    "footerBottomText2": "Our experts are ready to tackle any questions you have, with all the assuring answers you need.",
+    "footerSocialMedia": [
+      {
+        "icon": "fa-brands fa-facebook-f",
+        "link": "https://www.facebook.com"
+      },
+      {
+        "icon": "fa-brands fa-twitter",
+        "link": "https://www.twitter.com/"
+      },
+      {
+        "icon": "fa-brands fa-linkedin-in",
+        "link": "https://www.linkedin.com/in/"
+      },
+      {
+        "icon": "fa-brands fa-instagram",
+        "link": "https://www.instagram.com/"
+      }
+    ],
+    "copyright": "2023 Abhinav Gupta. All rights reserved."
+  },
+  "images": {
+    "googlePlayIconViolet": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/googlePlayIconViolet.svg",
+    "appleStoreIcon": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/apple_button_icon.svg",
+    "appleStoreButton": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/applePlayButton.svg",
+    "googlePlayButton": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/googlePlayButton.svg",
+    "ourFeaturesSlide1": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/ourFeaturesSlide1.webp",
+    "ourFeaturesSlide2": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/ourFeaturesSlide2.webp",
+    "ourFeaturesSlide3": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/ourFeaturesSlide3.webp",
+    "whyElevnRightImage": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/whyelevnRightImage.webp",
+    "whyElevnStar": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/whyElevnStar.svg",
+    "whyElevnImageMobile": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/whyElevnImageMobile.webp",
+    "theElevnEffectHeading": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/theElevnEffectHeading.svg",
+    "theElevnEffectCoupleReading": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/theElevnEffectCoupleReading.webp",
+    "theElevnEffectHoldingEachOther": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/theElevnEffectHoldingEachOther.webp",
+    "theElevnEffectImage1x": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/theElevnEffectImage1x.webp",
+    "theElevnEffectImage1_5x": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/theElevnEffectImage1.5x.webp",
+    "theElevnEffectImage2x": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/theElevnEffectImage2x.webp",
+    "howElevnWorksSlide1": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksSlide1.webp",
+    "howElevnWorksSlide2": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksSlide2.webp",
+    "howElevnWorksSlide3": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksSlide3.webp",
+    "howElevnWorksHeading": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksHeading.svg",
+    "howElevnWorksMobileSlide1": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksMobileSlide1.webp",
+    "howElevnWorksMobileSlide2": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksMobileSlide2.webp",
+    "howElevnWorksMobileSlide3": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksMobileSlide3.webp",
+    "howElevnWorksMobileHeading": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksMobileHeading.svg",
+    "howElevnWorksCupidsHeartMobile": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/howElevnWorksCupidsHeartMobile.svg",
+    "elevnHeaderLogo": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/elevn_header_logo.svg",
+    "hamburgerIcon": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/hamburger_icon.svg",
+    "hamburgerArrow": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/hamburger_arrow.svg",
+    "elevnHeaderPurpleLogo": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/purple_elevn_logo.svg",
+    "ourFeaturesMobileSlide1": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/OUR_FEATURES_MOBILE_SLIDE_1.webp",
+    "ourFeaturesMobileSlide2": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/OUR_FEATURES_MOBILE_SLIDE_2.webp",
+    "ourFeaturesMobileSlide3": "https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/OUR_FEATURES_MOBILE_SLIDE_3.webp"
+  }
+}

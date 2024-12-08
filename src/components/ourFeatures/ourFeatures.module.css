@@ -1,0 +1,44 @@
+.ourFeatures {
+  background-color: #d4d7ff;
+  padding: 10px auto;
+  height: auto;
+  width: 100%;
+}
+.ourFeaturesContainer {
+  margin: 0 auto;
+  padding: 10% 5%;
+  @media only screen and (min-width: 768px) {
+    padding: 5% 5%;
+  }
+}
+.ourFeaturesTitle {
+  margin-bottom: 50px;
+  font-family: "Crimson Pro", serif;
+  font-size: 4rem;
+  text-align: center;
+  color: #351b4f;
+  @media only screen and (max-width: 768px) {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+}
+.ourFeaturesTitleSpan {
+  position: relative;
+}
+.ourFeaturesArrowAnimation {
+  width: 10rem;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  left: -150px;
+  margin-top: 17px;
+  transform: rotate(91deg);
+  @media only screen and (max-width: 768px) {
+    /* left: -100px; */
+    left: -60px;
+    width: 4rem;
+    transform: rotate(81deg);
+
+    margin-top: 10px;
+  }
+}

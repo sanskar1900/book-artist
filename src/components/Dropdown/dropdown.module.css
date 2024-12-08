@@ -1,0 +1,144 @@
+.root {
+  position: relative;
+  cursor: pointer;
+  font-family: "Crimson Pro", serif;
+}
+
+.activeDropdownCardStyle {
+  background: white;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.16);
+  /* border-radius: 10px; */
+  opacity: 1;
+  width: auto;
+  position: absolute;
+  /* padding: 8px 3px 0px 3px; */
+  top: 40px;
+  left: -80px;
+  z-index: 1023;
+}
+
+.inactiveDropdownCardStyle {
+  display: none;
+}
+
+.dropDownContainer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.dropDownName {
+  font-size: 15px;
+  color: white;
+}
+
+.gradeSelector {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .gradeSelector {
+    gap: 15px;
+  }
+}
+
+.dropDownIcon {
+  background-image: url(""); /* This variable `$grade_drop_down` is not valid in CSS, so you'd need to replace it with an actual image URL */
+  height: 20px;
+  width: 20px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .dropDownIcon {
+    margin-top: 0px;
+    height: 12px;
+    width: 12px;
+  }
+}
+
+.gradeSelectorName {
+  color: white;
+  font-size: 48px;
+}
+
+@media screen and (max-width: 1200px) {
+  .gradeSelectorName {
+    font-size: 24px;
+    padding-right: 10px;
+  }
+
+  .gradeSelectorName.option {
+    font-size: 16px;
+  }
+}
+
+.dropDownIconRotate {
+  transform: rotate(180deg);
+}
+
+.menuListStyle {
+  position: absolute;
+  top: -5px;
+  border-radius: 5px 5px;
+  height: 0px;
+  width: 0px;
+  right: 40px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid white;
+}
+
+.menuItemStyle {
+  cursor: pointer;
+  display: flex;
+  flex-grow: 1;
+  max-width: auto;
+  /* margin: 0px 0px 8px 0px; */
+  align-items: center;
+  padding: 10px 25px 10px 25px;
+  white-space: nowrap;
+  /* border-bottom: 1.5px solid rgba(0, 0, 0, 0.1); */
+}
+
+.menuItemStyle:last-child {
+  border-bottom: none;
+}
+
+.menuItemText {
+  color: #3d4d5d;
+  flex: 1;
+  min-width: 100px;
+  font-family: "Crimson Pro", serif;
+  font-size: 15px;
+}
+.menuItemStyle:hover {
+  background-color: #f0f1ff;
+  color: #351b4f !important;
+  transition: 0.1s ease;
+  .menuItemText {
+    color: #351b4f !important;
+  }
+}
+
+.iconStyle {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #000;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .dropDownName {
+    font-size: 14px;
+  }
+}

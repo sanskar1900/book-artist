@@ -1,0 +1,222 @@
+import React, { useEffect, useState } from "react";
+
+import SlideUpAnimation from "../SlideUpAnimation";
+import classes from "./introSection.module.css";
+
+const IntroSection = ({ data }) => {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex(
+        (prevIndex) =>
+          (prevIndex + 1) % data?.mainPage?.headingChangingText?.length
+      );
+    }, 2000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [data?.mainPage?.headingChangingText?.length]);
+
+  return (
+    <>
+      <style jsx>
+        {`
+          .introSection {
+            background-color: #d6d8ff;
+            width: 100%;
+            min-height: 100vh;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: no-wrap;
+
+            background-image: url("https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/introSectionBgNew_compressed.webp");
+            background-size: cover;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            opacity: 0;
+
+            animation-delay: 1s;
+            @media only screen and (min-width: 1500px) and (max-width: 768px) {
+              min-height: 90vh;
+            }
+            @media only screen and (max-width: 768px) {
+              background-position: calc(50% + 35px) center;
+              padding-bottom: 67px;
+            }
+            @media only screen and (max-width: 500px) {
+              background-image: url("https://elevn-website-assets.s3.ap-south-1.amazonaws.com/elevnCommunity/images/introSectionMobile.webp");
+              background-position: center calc(50%);
+              min-height: 90vh;
+            }
+            @media only screen and (max-width: 375px) {
+              background-size: 115%;
+              background-position: center calc(50% - 60px);
+            }
+          }
+
+          .introHeading {
+            font-family: "Crimson Pro", serif;
+            color: white;
+            margin: 24% 1% 8% 20%;
+            flex-wrap: wrap;
+
+            @media only screen and (min-width: 1800px) {
+              font-size: 2.9rem;
+            }
+            @media only screen and (min-width: 1500px) and (max-width: 1600px) {
+              font-size: 3rem;
+            }
+            @media only screen and (min-width: 992px) and (max-width: 1500px) {
+              font-size: 3rem;
+            }
+            @media only screen and (min-width: 768px) and (max-width: 992px) {
+              font-size: 1.8rem;
+            }
+            @media only screen and (max-width: 768px) {
+              font-size: 1.5rem;
+              margin: 20% 8.5%;
+            }
+          }
+
+          .headingChangingText {
+            color: white;
+            font-family: "Crimson Pro", serif;
+            text-decoration: underline;
+          }
+
+          .introSubHeading1,
+          .introSubHeading2 {
+            font-family: "Crimson Pro", serif;
+            color: white;
+            margin: 10px auto;
+            font-size: 1.1rem;
+            text-align: center;
+            margin-bottom: 0px;
+            @media only screen and (min-width: 1800px) {
+              font-size: 1.2rem;
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 1200px) {
+              font-size: 1.4rem;
+              text-align: center;
+              margin: 0 auto;
+            }
+            @media only screen and (max-width: 768px) {
+              font-size: 1rem;
+              text-align: center;
+              line-height: 1.6rem;
+              margin: 0 8%;
+              margin-left: 10%;
+            }
+            @media only screen and (max-width: 375px) {
+              font-size: 0.9rem;
+            }
+          }
+
+          .introSubHeading1 {
+            @media only screen and (max-width: 768px) {
+              margin-top: 90px;
+            }
+            @media only screen and (max-width: 500px) {
+              margin-top: 20px;
+            }
+          }
+
+          .introBottomContainer {
+            display: flex;
+            justify-content: space-between;
+            margin: 10% 4% 3% 4%;
+            @media only screen and (max-width: 768px) {
+              flex-direction: column;
+            }
+          }
+          .introBottomLeftLext {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 50px #000000;
+            font-family: "Crimson Pro", serif;
+            color: white;
+            margin-top: 65px;
+            @media only screen and (max-width: 768px) {
+              font-size: 1rem;
+              text-align: center;
+            }
+            @media only screen and (max-width: 500px) {
+              margin-top: 15px;
+            }
+          }
+          .introBottomRightLext {
+            font-family: "Crimson Pro", serif;
+            color: white;
+            font-size: 1.3rem;
+          }
+          .introBottomRightContainer {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .bottomRightButtonsContainer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+          }
+          .bottomRightButtons {
+            width: 12rem;
+            height: auto;
+            margin: 2px 5px;
+          }
+          @keyframes fadeInBackground {
+            0% {
+              opacity: 0;
+              transform: translateY(200px);
+              scale: 125%;
+            }
+            100% {
+              opacity: 1;
+              scale: 100%;
+              transform: translateY(0px);
+            }
+          }
+
+          @keyframes fadeInText {
+            0% {
+              opacity: 0;
+              transform: translateY(10px);
+            }
+            50% {
+              transform: translateY(0);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(-10px);
+            }
+          }
+
+          .introSectionDownloadAppHeading {
+            margin-top: 15px;
+            font-size: 15px;
+          }
+          .introSectionAppStoreBtn,
+          .introSectionGooglePlayBtn {
+            width: 150px;
+            height: auto;
+            @media only screen and (max-width: 576px) {
+              width: 120px;
+              height: auto;
+            }
+          }
+        `}
+      </style>
+      <div className={classes.introSection}>
+        <SlideUpAnimation
+          textArr={data?.mainPage?.headingChangingText}
+          preText={data?.mainPage?.heading}
+        />
+      </div>
+    </>
+  );
+};
+
+export default IntroSection;

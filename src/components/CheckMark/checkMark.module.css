@@ -1,0 +1,19 @@
+.circle {
+  width: 20px; /* Diameter of the circle */
+  height: 20px;
+  border-radius: 50%; /* Makes the div circular */
+
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers the tick inside the circle */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.tick {
+  width: 9px;
+  height: 4px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(-45deg);
+  margin-bottom: 2px;
+}
