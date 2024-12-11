@@ -26,14 +26,14 @@ const NavBar = ({ activeSection, renderHeader = false }) => {
   const [backgroundColor, setBackgroundColor] = useState("transparent");
   const [shouldAnimate, setShouldAnimate] = useState(false); // State for animation
   const hasAnimated = useRef(true);
-  const router = useNavigate(); // useNavigate hook for programmatic navigation
+  const navigate = useNavigate(); // useNavigate hook for programmatic navigation
 
   const handleHamburgerClick = () => {
     setShowMenu(!showMenu);
   };
 
   const onDropDownSelect = (selectedItem) => {
-    router.push(selectedItem.url); // Navigate to the selected URL
+    navigate(selectedItem.url); // Navigate to the selected URL
   };
 
   useEffect(() => {
@@ -98,7 +98,7 @@ const NavBar = ({ activeSection, renderHeader = false }) => {
             }
             alt="white-logo"
             className={classes.andLogo}
-            onClick={() => router.push("/")} // Replacing openLink with navigate
+            onClick={() => navigate("/")} // Replacing openLink with navigate
             width={200}
             height={110}
           />
@@ -110,7 +110,7 @@ const NavBar = ({ activeSection, renderHeader = false }) => {
               height={110}
               alt="white-logo"
               className={classes.elevnLogo}
-              onClick={() => router.push("/")}
+              onClick={() => navigate("/")}
               loading="lazy"
             />
           </a>
@@ -135,7 +135,7 @@ const NavBar = ({ activeSection, renderHeader = false }) => {
                       <button
                         className={classes.headItemsBtn}
                         onClick={() => {
-                          router.push(link); // Replacing openLink with navigate
+                          navigate(link); // Replacing openLink with navigate
                         }}
                       >
                         <span
@@ -168,7 +168,7 @@ const NavBar = ({ activeSection, renderHeader = false }) => {
                       key={key}
                       name={name}
                       onClick={() => {
-                        router.push(link); // Replacing openLink with navigate
+                        navigate(link); // Replacing openLink with navigate
                       }}
                       fullLink={fullLink}
                       activeSection={activeSection}

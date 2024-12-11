@@ -7,6 +7,7 @@ function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/login" element={<HomePage />} />
       {/* <Route path="/profile" element={<ProfilePage />} /> */}
     </Routes>
   );

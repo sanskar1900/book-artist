@@ -1,0 +1,25 @@
+.loginDrawerRoot{
+    width: 350px;
+    padding: 20px;
+}
+/* .rootDrawer{
+    z-index: 11000 !important;
+} */
+
+.rootDrawer {
+position: fixed;
+   
+    z-index: 10000 !important;
+   
+    
+}
+
+@keyframes slideIn {
+    from {
+        right: -400px;
+    }
+
+    to {
+        right: 400px;
+    }
+}

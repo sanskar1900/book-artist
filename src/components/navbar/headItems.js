@@ -28,6 +28,6 @@ export const headItems = [
     key: "login",
     isMenuItem: true,
     name: "Login",
-    link: "",
+    link: "/login",
   },
 ];
