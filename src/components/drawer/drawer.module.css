@@ -1,6 +1,13 @@
 .loginDrawerRoot{
     width: 350px;
     padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: black;
 }
 /* .rootDrawer{
     z-index: 11000 !important;
